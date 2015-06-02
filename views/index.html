@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>{{title}}</h1>
-    <button id="app-switch" onclick="document.location.href='appiumdemo://';">Switch to app</button>
+    <button id="app-switch" onclick="document.location.href='appiumdemo://'; setTimeout(function(){location.href='http://www.google.com'} , 500); ">Switch to app</button>
     
 </body>
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
